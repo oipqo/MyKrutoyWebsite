@@ -1,0 +1,84 @@
+body { 
+    background-color: #435983;
+    font-family: sans-serif;   
+}
+.container.nav_bar {
+    font-size: 25px;
+    font-weight: bold;
+}
+.container {
+    margin-top: 30px;
+}
+
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central_photo {
+    background: url(../image/serega.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.sf {
+    background: url(../image/sf.webp) no-repeat center center;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.pudge {
+    background: url(../image/pudge.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+}
+.col-2.nav_logo {
+    background: url(../image/logo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 50px;
+    height: 50px; 
+}
+.col-12.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_js {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myButton {
+    border: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(87, 198, 98);
+    color: white;
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
